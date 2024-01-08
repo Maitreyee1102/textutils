@@ -31,7 +31,6 @@ function App() {
     <Navbar title='TextUtils' mode= {mode} toggleMode={toggleMode}/>
     <Alert alert={alert}/>
     <TextForm  mode= {mode} toggleMode={toggleMode} heading='Enter text here'/>
-    <About></About>
       </>
   );
 }
